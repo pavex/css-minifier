@@ -1,14 +1,18 @@
 # css-minifier
-Stylesheet merge and minify on the fly.
+Simple CSS minification.
+Usage in command line
 
-Simple usage in command line
+Example:
+Minify first.css and second.css and merge them into minify1.css defiend as output
 
 <code>
 css -f first.css -f second.css -m > minify1.css
 </code>
 
-or to shou short report
+or show process basic report and write result into file minify2.css
 
 <code>
 css -f first.css -f second.css -m -o minify2.css
 </code>
+
+Try it, it's very simple :)
